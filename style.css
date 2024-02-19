@@ -31,10 +31,6 @@ nav {
     font-size: 0.75rem;
 }
 
-/* .nav-items ul li {
-    position: relative;
-} */
-
 .nav-items li a {
     text-decoration: none;
     color: #dadada;
@@ -44,6 +40,20 @@ nav {
 
 .nav-items li:hover a {
     color: white;
+}
+
+.sub {
+    background-color: #444445;
+    display: none;
+}
+
+.sub ul {
+    list-style: none;
+}
+
+.sub ul li a {
+    text-decoration: none;
+    color: #dadada;
 }
 
 nav .search-logo a {
@@ -86,7 +96,7 @@ nav .bag-logo a {
 
 .section1 .section1-items h2 {
     font-size: 3.5rem;
-} 
+}
 
 .section1 .section1-items p {
     font-size: 1.8rem;
@@ -94,8 +104,9 @@ nav .bag-logo a {
 
 .section2 {
     height: 620px;
-    background-image: url(./img/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
-    background-size: 100% 100%;
+    background-image: url(./img/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
     color: #f5f5f7;
     display: flex;
     justify-content: center;
@@ -130,7 +141,7 @@ nav .bag-logo a {
 }
 
 .section3 {
-    background-image: url(./img/hero_iphone15_announce__uuemlcwczn6u_small.jpg);
+    background-image: url(./img/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
     margin-top: 10px;
     height: 580px;
     background-repeat: no-repeat;
@@ -171,11 +182,11 @@ nav .bag-logo a {
 }
 
 .card1 {
-    background-image: url(./img/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg);
+    background-image: url(./img/promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg);
+    background-position: center;
     height: 580px;
     width: 650px;
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 6px;
     color: white;
 }
@@ -213,11 +224,11 @@ nav .bag-logo a {
 }
 
 .card2 {
-    background-image: url(./img/promo_apple_watch_ultra2_order__dyxqj5ia98om_medium.jpg);
+    background-image: url(./img/promo_ipad__fioegapg12qi_large.jpg);
+    background-position: center;
     height: 580px;
     width: 650px;
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 6px;
 }
 
@@ -227,34 +238,34 @@ nav .bag-logo a {
     height: 580px;
     width: 650px;
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 6px;
 }
 
 .card4 {
-    background-image: url(./img/promo_fitness_alt__ck26n46yeb2a_medium.jpg);
+    background-image: url(./img/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-position: center;
     height: 580px;
     width: 650px;
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 6px;
+    color: white;
 }
 
 .card5 {
-    background-image: url(./img/tile__cauwwcyyn9hy_medium.jpg);
+    background-image: url(./img/tile__cauwwcyyn9hy_large_2x.jpg);
+    background-position: center;
     height: 580px;
     width: 650px;
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 6px;
 }
 
 .card6 {
-    background-image: url(./img/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+    background-image: url(./img/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+    background-position: center;
     height: 580px;
     width: 650px;
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 6px;
 }
 
